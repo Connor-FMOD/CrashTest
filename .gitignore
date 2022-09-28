@@ -7,11 +7,12 @@
 !Plugins/FMODStudio/Binaries
 !Plugins/FMODStudio/Content/*
 !Plugins/FMODStudio/FMODStudio.uplugin
+
 # Ignore these FMOD Files
 Plugins/FMODStudio/Docs
 Plugins/FMODStudio/Intermediate
 Plugins/FMODStudio/Resources
-
+Content/FMOD/Events/
 
 # Compiled Object files
 *.slo
