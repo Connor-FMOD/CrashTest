@@ -72,3 +72,13 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Do not ignore these FMOD files 
+!Plugins/FMODStudio/Source
+
+# Ignore these FMOD Files
+Plugins/FMODStudio/Docs
+Plugins/FMODStudio/Intermediate
+Plugins/FMODStudio/Resources
+Plugins/fmodstudio20206ue4.27win64.zip
+Plugins/install_notes.txt
