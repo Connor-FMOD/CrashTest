@@ -1,6 +1,18 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+#FMOD Files 
+# Do not ignore these FMOD files 
+!Plugins/FMODStudio/Source
+!Plugins/FMODStudio/Binaries
+!Plugins/FMODStudio/Content/*
+!Plugins/FMODStudio/FMODStudio.uplugin
+# Ignore these FMOD Files
+Plugins/FMODStudio/Docs
+Plugins/FMODStudio/Intermediate
+Plugins/FMODStudio/Resources
+
+
 # Compiled Object files
 *.slo
 *.lo
@@ -47,7 +59,7 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/*/Binaries/*
+!Plugins/*/Binaries/*
 
 # Builds
 Build/*
@@ -73,12 +85,3 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-# Do not ignore these FMOD files 
-!Plugins/FMODStudio/Source
-
-# Ignore these FMOD Files
-Plugins/FMODStudio/Docs
-Plugins/FMODStudio/Intermediate
-Plugins/FMODStudio/Resources
-Plugins/fmodstudio20206ue4.27win64.zip
-Plugins/install_notes.txt
