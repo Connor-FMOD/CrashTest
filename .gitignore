@@ -15,7 +15,8 @@ Plugins/FMODStudio/Resources
 Content/FMOD/Events/
 
 #SNL file 
-!E:\UE Projects\CrashTest\TestingCrash.sln
+!/TestingCrash.sln
+
 # Compiled Object files
 *.slo
 *.lo
